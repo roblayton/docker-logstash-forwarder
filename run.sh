@@ -5,7 +5,7 @@ cat << EOF > /tmp/config.json
     "servers": [ "$LOGSTASH_SERVER" ],
     "timeout": 15,
     "transport": "tls",
-    "ssl ca": "/etc/pki/tls/certs/logstash-forwarder.crt"
+    "ssl ca": "/etc/pki/tls/certs/selfsigned.crt"
   },
   "files": [
     {
